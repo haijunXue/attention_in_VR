@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.visualroom.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\Lab\\Desktop\\haijun\\VrRoom\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "C:\\Users\\Lab\\Desktop\\haijunArbeit\\Task\\VrRoom\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "VisualRoom [Testing]"
