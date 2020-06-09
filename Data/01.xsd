@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Data">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="GazeData" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Pose">
+								<xs:complexType>
+									<xs:attribute name="Position" use="required" type="xs:string"/>
+									<xs:attribute name="Rotation" use="required" type="xs:string"/>
+									<xs:attribute name="Valid" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Left">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="GazeDirection">
+											<xs:complexType>
+												<xs:attribute name="Value" use="required" type="xs:string"/>
+												<xs:attribute name="Valid" use="required" type="xs:string"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="GazeOrigin">
+											<xs:complexType>
+												<xs:attribute name="Value" use="required" type="xs:string"/>
+												<xs:attribute name="Valid" use="required" type="xs:string"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="PupilDiameter">
+											<xs:complexType>
+												<xs:attribute name="Value" use="required" type="xs:string"/>
+												<xs:attribute name="Valid" use="required" type="xs:string"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="GazeRayWorld">
+											<xs:complexType>
+												<xs:attribute name="Origin" use="required" type="xs:string"/>
+												<xs:attribute name="Direction" use="required" type="xs:string"/>
+												<xs:attribute name="Valid" use="required" type="xs:string"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Right">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="GazeDirection">
+											<xs:complexType>
+												<xs:attribute name="Value" use="required" type="xs:string"/>
+												<xs:attribute name="Valid" use="required" type="xs:string"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="GazeOrigin">
+											<xs:complexType>
+												<xs:attribute name="Value" use="required" type="xs:string"/>
+												<xs:attribute name="Valid" use="required" type="xs:string"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="PupilDiameter">
+											<xs:complexType>
+												<xs:attribute name="Value" use="required" type="xs:string"/>
+												<xs:attribute name="Valid" use="required" type="xs:string"/>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="GazeRayWorld">
+											<xs:complexType>
+												<xs:attribute name="Origin" use="required" type="xs:string"/>
+												<xs:attribute name="Direction" use="required" type="xs:string"/>
+												<xs:attribute name="Valid" use="required" type="xs:string"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="CombinedGazeRayWorld">
+								<xs:complexType>
+									<xs:attribute name="Origin" use="required" type="xs:string"/>
+									<xs:attribute name="Direction" use="required" type="xs:string"/>
+									<xs:attribute name="Valid" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="OriginalGaze">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="LeftEye">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="GazeDirection">
+														<xs:complexType>
+															<xs:attribute name="UnitVector" use="required" type="xs:string"/>
+															<xs:attribute name="Validity" use="required" type="xs:string"/>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="GazeOrigin">
+														<xs:complexType>
+															<xs:attribute name="PositionInHMDCoordinates" use="required" type="xs:string"/>
+															<xs:attribute name="Validity" use="required" type="xs:string"/>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="Pupil">
+														<xs:complexType>
+															<xs:attribute name="PupilDiameter" use="required" type="xs:string"/>
+															<xs:attribute name="Validity" use="required" type="xs:string"/>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="PupilPosition">
+														<xs:complexType>
+															<xs:attribute name="PositionInTrackingArea" use="required" type="xs:string"/>
+															<xs:attribute name="Validity" use="required" type="xs:string"/>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="RightEye">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="GazeDirection">
+														<xs:complexType>
+															<xs:attribute name="UnitVector" use="required" type="xs:string"/>
+															<xs:attribute name="Validity" use="required" type="xs:string"/>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="GazeOrigin">
+														<xs:complexType>
+															<xs:attribute name="PositionInHMDCoordinates" use="required" type="xs:string"/>
+															<xs:attribute name="Validity" use="required" type="xs:string"/>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="Pupil">
+														<xs:complexType>
+															<xs:attribute name="PupilDiameter" use="required" type="xs:string"/>
+															<xs:attribute name="Validity" use="required" type="xs:string"/>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="PupilPosition">
+														<xs:complexType>
+															<xs:attribute name="PositionInTrackingArea" use="required" type="xs:string"/>
+															<xs:attribute name="Validity" use="required" type="xs:string"/>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="DeviceTimeStamp" use="required" type="xs:long"/>
+									<xs:attribute name="SystemTimeStamp" use="required" type="xs:long"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="TimeStamp" use="required" type="xs:long"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
