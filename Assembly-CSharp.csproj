@@ -58,8 +58,6 @@
      <Compile Include="Assets\Scripts\ButtonTransitioner.cs" />
      <Compile Include="Assets\Scripts\ColorLerper.cs" />
      <Compile Include="Assets\Scripts\DoorScripts.cs" />
-     <Compile Include="Assets\Scripts\EyeData.cs" />
-     <Compile Include="Assets\Scripts\Eyetracking.cs" />
      <Compile Include="Assets\Scripts\Hand.cs" />
      <Compile Include="Assets\Scripts\Interactable.cs" />
      <Compile Include="Assets\Scripts\Laser_moove.cs" />
@@ -68,179 +66,20 @@
      <Compile Include="Assets\Scripts\LaserPointer.cs" />
      <Compile Include="Assets\Scripts\Pointer.cs" />
      <Compile Include="Assets\Scripts\Position.cs" />
+     <Compile Include="Assets\Scripts\Position4vector.cs" />
+     <Compile Include="Assets\Scripts\PositionINHMD.cs" />
+     <Compile Include="Assets\Scripts\PositonRay.cs" />
+     <Compile Include="Assets\Scripts\SaveData.cs" />
+     <Compile Include="Assets\Scripts\SaveData1.cs" />
+     <Compile Include="Assets\Scripts\SaveData2.cs" />
      <Compile Include="Assets\Scripts\SceneChanger.cs" />
      <Compile Include="Assets\Scripts\SceneSwitch.cs" />
      <Compile Include="Assets\Scripts\Teleporter.cs" />
      <Compile Include="Assets\Scripts\TimeCounterDown.cs" />
      <Compile Include="Assets\Scripts\Track.cs" />
-     <Compile Include="Assets\Scripts\TrackingData.cs" />
      <Compile Include="Assets\Scripts\VRInputModule.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\CleanUI.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\CleanUIForCanvas.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\CleanUIOpacityOverrideForCanvas.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\CloudPointVisualizer.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example01\PrintGazePosition.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example01\ShowNoGazeDetection.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example02\ChangeColor.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example02\ReactOnUserInput.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example03\EyeTrackerSettingsMenu.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example04-FirstPerson\ExtendedViewFirstPerson.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example04-FirstPerson\ExtendedViewSimple.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example04-FirstPerson\GunFirstPerson.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example05-ThirdPerson\ExtendedViewThirdPerson.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example05-ThirdPerson\GunThirdPerson.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example06-Strategy\MapNavigation.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example06-Strategy\MapNavigationBase.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example06-Strategy\MouseNavigation.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\DynamicLightAdaptation.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Components\BloomComponent.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Components\DitheringComponent.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Components\FogComponent.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Components\FxaaComponent.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Components\GrainComponent.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Components\TaaComponent.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Components\UserLutComponent.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Components\VignetteComponent.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Models\BloomModel.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Models\DitheringModel.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Models\FogModel.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Models\GrainModel.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Models\UserLutModel.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Models\VignetteModel.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\PostProcessingComponent.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\PostProcessingContext.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\PostProcessingModel.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\PostProcessingProfile.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\Example07-DynamicLightAdaptation\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\ExtendedView.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\ExtendedViewBase.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\FogOnPresenceLost.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\GazePlotter.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\HeadMovement.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\InteractAtGazeWithCrosshairOverride.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\MarkAtGaze.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\NotEyeTrackingReleated\CursorLocker.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\NotEyeTrackingReleated\FollowTransform.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\NotEyeTrackingReleated\Gun.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\NotEyeTrackingReleated\InputManager.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\NotEyeTrackingReleated\InteractableGazeAware.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\NotEyeTrackingReleated\LaserSight.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\NotEyeTrackingReleated\LoadScene.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\NotEyeTrackingReleated\ProgressButton.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\NotEyeTrackingReleated\QuitApplication.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\NotEyeTrackingReleated\SceneContent.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\NotEyeTrackingReleated\SceneContentController.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\NotEyeTrackingReleated\SceneProgress.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\NotEyeTrackingReleated\SetBackground.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\NotEyeTrackingReleated\SetCarCycleOffset.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\NotEyeTrackingReleated\SimpleMoveController.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\NotEyeTrackingReleated\TargetDummy.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\NotEyeTrackingReleated\ToggleCodeExample.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\NotEyeTrackingReleated\Wireframe.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\RobotFaceControl.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Scripts\WeaponController.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Shaders\Highlight\HighlightsPostEffect.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Shaders\Water\Scripts\Displace.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Shaders\Water\Scripts\GerstnerDisplace.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Shaders\Water\Scripts\MeshContainer.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Shaders\Water\Scripts\PlanarReflection.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Shaders\Water\Scripts\SpecularLighting.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Shaders\Water\Scripts\Water.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Shaders\Water\Scripts\WaterBase.cs" />
-     <Compile Include="Assets\Tobii\DemoScenes\Shaders\Water\Scripts\WaterTile.cs" />
-     <Compile Include="Assets\Tobii\Framework\DisplayInfo.cs" />
-     <Compile Include="Assets\Tobii\Framework\GazeAware.cs" />
-     <Compile Include="Assets\Tobii\Framework\GazePoint.cs" />
-     <Compile Include="Assets\Tobii\Framework\HeadPose.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\DataProviderBase.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\DataProviderStub.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\FocusedObject.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\GameViewInfo.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\GazeFocus.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\GazeFocusSettings.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\GazeFocusStub.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\GazePointDataProvider.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\HeadPoseDataProvider.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\HitTestFromPoint.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\IDataProvider.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\IGazeFocus.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\IGazeFocusable.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\IGazeFocusInternal.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\IRegisterGazeFocusable.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\IScorer.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\ITimestamped.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\ITobiiHost.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\MultiRaycastHistoricHitScore.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\ScoredObject.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\ScreenHelpers.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\SingleRaycastHistoricHitScore.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\SingleRaycastNoScore.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\TobiiEulaFile.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\TobiiHost.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\TobiiHostStub.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\Win32Helpers.cs" />
-     <Compile Include="Assets\Tobii\Framework\Internal\WindowHelpers.cs" />
-     <Compile Include="Assets\Tobii\Framework\TobiiAPI.cs" />
-     <Compile Include="Assets\Tobii\Framework\UserPresence.cs" />
-     <Compile Include="Assets\Tobii\Plugins\SimpleJSON.cs" />
-     <Compile Include="Assets\TobiiPro\Common\Scripts\CalibrationThread.cs" />
-     <Compile Include="Assets\TobiiPro\Common\Scripts\Data\UserPositionGuideData.cs" />
-     <Compile Include="Assets\TobiiPro\Common\Scripts\ExtensionMethods.cs" />
-     <Compile Include="Assets\TobiiPro\Common\Scripts\EyeTrackerBase.cs" />
-     <Compile Include="Assets\TobiiPro\Common\Scripts\GazeTrailBase.cs" />
-     <Compile Include="Assets\TobiiPro\Common\Scripts\IUserPositionGuideData.cs" />
-     <Compile Include="Assets\TobiiPro\Examples\ScreenBased\Scripts\ScreenBasedPrefabDemo.cs" />
-     <Compile Include="Assets\TobiiPro\Examples\SubscribingToGazeData.cs" />
-     <Compile Include="Assets\TobiiPro\Examples\SubscribingToHMDGazeData.cs" />
-     <Compile Include="Assets\TobiiPro\Examples\SubscribingToUserPositionGuide.cs" />
-     <Compile Include="Assets\TobiiPro\Examples\VRDemo\Scripts\TobiiControl.cs" />
-     <Compile Include="Assets\TobiiPro\Examples\VRDemo\Scripts\VRPrefabDemo.cs" />
-     <Compile Include="Assets\TobiiPro\ScreenBased\Scripts\Data\GazeData.cs" />
-     <Compile Include="Assets\TobiiPro\ScreenBased\Scripts\EyeTracker.cs" />
-     <Compile Include="Assets\TobiiPro\ScreenBased\Scripts\IGazeData.cs" />
-     <Compile Include="Assets\TobiiPro\ScreenBased\Scripts\IGazeDataEye.cs" />
-     <Compile Include="Assets\TobiiPro\ScreenBased\Scripts\Utility\Calibration.cs" />
-     <Compile Include="Assets\TobiiPro\ScreenBased\Scripts\Utility\CalibrationPoint.cs" />
-     <Compile Include="Assets\TobiiPro\ScreenBased\Scripts\Utility\GazeTrail.cs" />
-     <Compile Include="Assets\TobiiPro\ScreenBased\Scripts\Utility\ScreenBasedSaveData.cs" />
-     <Compile Include="Assets\TobiiPro\ScreenBased\Scripts\Utility\TrackBoxGuide.cs" />
-     <Compile Include="Assets\TobiiPro\VR\Scripts\Data\VRGazeData.cs" />
-     <Compile Include="Assets\TobiiPro\VR\Scripts\IVRGazeData.cs" />
-     <Compile Include="Assets\TobiiPro\VR\Scripts\IVRGazeDataEye.cs" />
-     <Compile Include="Assets\TobiiPro\VR\Scripts\Utility\VRCalibration.cs" />
-     <Compile Include="Assets\TobiiPro\VR\Scripts\Utility\VRCalibrationPoint.cs" />
-     <Compile Include="Assets\TobiiPro\VR\Scripts\Utility\VRCalibrationThread.cs" />
-     <Compile Include="Assets\TobiiPro\VR\Scripts\Utility\VRGazeTrail.cs" />
-     <Compile Include="Assets\TobiiPro\VR\Scripts\Utility\VRPositioningGuide.cs" />
-     <Compile Include="Assets\TobiiPro\VR\Scripts\Utility\VRPositioningPlacementCanvas.cs" />
-     <Compile Include="Assets\TobiiPro\VR\Scripts\Utility\VRSaveData.cs" />
-     <Compile Include="Assets\TobiiPro\VR\Scripts\Utility\VRUtility.cs" />
-     <Compile Include="Assets\TobiiPro\VR\Scripts\VREyeTracker.cs" />
+     <Compile Include="Assets\TobiiXR\Examples\DataTransparency_Example\DataTransparencyPopup.cs" />
+     <Compile Include="Assets\TobiiXR\Examples\DataTransparency_Example\PulsateColor.cs" />
      <Compile Include="Assets\TobiiXR\Examples\HandEyeCoordination_Example\Plugins\Tobii.HEC.Interop.cs" />
      <Compile Include="Assets\TobiiXR\Examples\HandEyeCoordination_Example\Scripts\Grabbing\GazeGrab.cs" />
      <Compile Include="Assets\TobiiXR\Examples\HandEyeCoordination_Example\Scripts\Grabbing\GazeGrabbableObject.cs" />
@@ -266,6 +105,7 @@
      <Compile Include="Assets\TobiiXR\Examples\UI_Example\Scripts\Touchpad\UITouchpadSwipeDetector.cs" />
      <Compile Include="Assets\TobiiXR\Examples\UI_Example\Scripts\Trigger\UITriggerDragDetector.cs" />
      <Compile Include="Assets\TobiiXR\Examples\UI_Example\Scripts\Trigger\UITriggerGazeButton.cs" />
+     <Compile Include="Assets\TobiiXR\Examples\UI_Example\Scripts\Trigger\UITriggerGazeButtonWithHold.cs" />
      <Compile Include="Assets\TobiiXR\Examples\UI_Example\Scripts\Trigger\UITriggerGazeSlider.cs" />
      <Compile Include="Assets\TobiiXR\Examples\UI_Example\Scripts\Trigger\UITriggerGazeToggleButton.cs" />
      <Compile Include="Assets\TobiiXR\Examples\UI_Example\Scripts\Utilities\UIEvents.cs" />
@@ -316,111 +156,69 @@
      <Compile Include="Assets\ViveSR\Scripts\SRanipal_API.cs" />
      <Compile Include="Assets\ViveSR\Scripts\SRanipal_Enums.cs" />
      <Compile Include="Assets\ViveSR\Scripts\SRWorks_Enums.cs" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\Highlight\MobileBlur.shader" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\FXAA3.cginc" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
      <None Include="Assets\TobiiXR\External\readme.txt" />
-     <None Include="Assets\TobiiPro\VR\readme_hmd_pose_prediction.txt" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\Blit.shader" />
-     <None Include="Assets\TobiiPro\VR\readme.txt" />
-     <None Include="Assets\TobiiPro\Examples\VRDemo\Scenes\readme.txt" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\MotionBlur.shader" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
      <None Include="Assets\ViveSR\Shaders\DartBoardShader.shader" />
-     <None Include="Assets\TobiiPro\ScreenBased\readme.txt" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
-     <None Include="Assets\TobiiPro\Examples\VRDemo\readme.txt" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\TAA.shader" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\GrainGen.shader" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
-     <None Include="Assets\Tobii\license.txt" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\Bloom.shader" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
      <None Include="Assets\TobiiXR\readme.txt" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\Uber.shader" />
-     <None Include="Assets\TobiiPro\tobii_pro_prefabs.txt" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\DepthOfField.shader" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\Bloom.cginc" />
-     <None Include="Assets\Tobii\Readme.txt" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\LutGen.shader" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\TobiiXR\Examples\HandEyeCoordination_Example\Shaders\LICENSE.txt" />
-     <None Include="Assets\Tobii\DemoScenes\Fonts\LICENSE.txt" />
-     <None Include="Assets\Tobii\DemoScenes\Readme-DemoSceneSetup.txt" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\Fog.shader" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\Common.cginc" />
      <None Include="Assets\TobiiXR\Examples\HandEyeCoordination_Example\Shaders\UltimateOutline.shader" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\FXAA.shader" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\ACES.cginc" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\Highlight\Highlight.shader" />
      <None Include="Assets\TobiiXR\External\Providers\Vive\readme.txt" />
      <None Include="Assets\ViveSR\Shaders\Unlit-Alpha2Gray.shader" />
-     <None Include="Assets\Tobii\DemoScenes\Shaders\PostProcessing\Resources\Shaders\TAA.cginc" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.multiplayer-hlapi.Editor">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.multiplayer-weaver.Editor">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.multiplayer-hlapi.Runtime">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -600,22 +398,16 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
  </Reference>
  <Reference Include="Valve.Newtonsoft.Json">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
- </Reference>
- <Reference Include="Tobii.GameIntegration.Net">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Assets/Tobii/Plugins/Tobii.GameIntegration.Net.dll</HintPath>
- </Reference>
- <Reference Include="Tobii.Research.Mono">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Assets/TobiiPro/Plugins/Tobii.Research.Mono.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

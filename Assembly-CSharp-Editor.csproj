@@ -57,70 +57,68 @@
      <Compile Include="Assets\Tobii\Framework\Editor\EyeTrackingClientLibraryDeployer.cs" />
      <Compile Include="Assets\Tobii\Framework\Editor\EyeTrackingSettingsWindow.cs" />
      <Compile Include="Assets\Tobii\Framework\Editor\TobiiEulaCheck.cs" />
-     <Compile Include="Assets\TobiiPro\Examples\Scripts\Editor\DemoMonitor.cs" />
-     <Compile Include="Assets\TobiiPro\VR\Scripts\Editor\VREyeTrackerInspector.cs" />
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.multiplayer-hlapi.Editor">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.multiplayer-weaver.Editor">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.multiplayer-hlapi.Runtime">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.0f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -309,31 +307,28 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Valve.Newtonsoft.Json">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Tobii.GameIntegration.Net">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Assets/Tobii/Plugins/Tobii.GameIntegration.Net.dll</HintPath>
- </Reference>
- <Reference Include="Tobii.Research.Mono">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Assets/TobiiPro/Plugins/Tobii.Research.Mono.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Assets/Tobii/Plugins/Tobii.GameIntegration.Net.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/VrRoom/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Users/LabBackpack1/Desktop/Haijun/Test/VrRoom/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -707,10 +702,6 @@
       <Project>{B6E03582-1E67-4AA1-166F-9FEF10817CC6}</Project>
       <Name>TobiiXREditor</Name>
     </ProjectReference>
-    <ProjectReference Include="TobiiXRSDK.csproj">
-      <Project>{B655F9B7-8CE6-DF06-7B8E-3D9E46DF4C21}</Project>
-      <Name>TobiiXRSDK</Name>
-    </ProjectReference>
     <ProjectReference Include="GazeModifierEditor.csproj">
       <Project>{30944A0B-131D-5F42-0105-AD340772C55F}</Project>
       <Name>GazeModifierEditor</Name>
@@ -718,10 +709,6 @@
     <ProjectReference Include="TobiiXRCore.csproj">
       <Project>{07BA97D3-A915-B268-695B-73C38CA0B563}</Project>
       <Name>TobiiXRCore</Name>
-    </ProjectReference>
-    <ProjectReference Include="TobiiXRInternalEditor.csproj">
-      <Project>{93BA5606-C54C-49BF-DDCC-2F79DCF5A9B9}</Project>
-      <Name>TobiiXRInternalEditor</Name>
     </ProjectReference>
     <ProjectReference Include="TobiiXRG2OM.csproj">
       <Project>{4A377010-4B9F-D5C2-84EE-298789545D7B}</Project>

@@ -27,8 +27,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TobiiXRInternalEditor", "To
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TobiiXREditor", "TobiiXREditor.csproj", "{B6E03582-1E67-4AA1-166F-9FEF10817CC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{753EF8F9-0B2A-5343-1D9E-ABF82C83DB03}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamVR_Windows_EditorHelper", "SteamVR_Windows_EditorHelper.csproj", "{7F57F349-43C5-5A12-B2E3-0F0CCBD66B5D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GazeModifierEditor", "GazeModifierEditor.csproj", "{30944A0B-131D-5F42-0105-AD340772C55F}"
@@ -91,10 +89,6 @@ Global
 		{B6E03582-1E67-4AA1-166F-9FEF10817CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6E03582-1E67-4AA1-166F-9FEF10817CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6E03582-1E67-4AA1-166F-9FEF10817CC6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{753EF8F9-0B2A-5343-1D9E-ABF82C83DB03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{753EF8F9-0B2A-5343-1D9E-ABF82C83DB03}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{753EF8F9-0B2A-5343-1D9E-ABF82C83DB03}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{753EF8F9-0B2A-5343-1D9E-ABF82C83DB03}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7F57F349-43C5-5A12-B2E3-0F0CCBD66B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7F57F349-43C5-5A12-B2E3-0F0CCBD66B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F57F349-43C5-5A12-B2E3-0F0CCBD66B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
