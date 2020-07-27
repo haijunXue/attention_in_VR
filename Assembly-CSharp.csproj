@@ -2,6 +2,8 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
+    <CscToolPath>C:\Program Files\Unity\Hub\Editor\2019.2.0f1\Editor\Data\Tools\RoslynScripts</CscToolPath>
+    <CscToolExe>unity_csc.bat</CscToolExe>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -58,6 +60,7 @@
      <Compile Include="Assets\Scripts\ButtonTransitioner.cs" />
      <Compile Include="Assets\Scripts\ColorLerper.cs" />
      <Compile Include="Assets\Scripts\DoorScripts.cs" />
+     <Compile Include="Assets\Scripts\GameHandler.cs" />
      <Compile Include="Assets\Scripts\Hand.cs" />
      <Compile Include="Assets\Scripts\Interactable.cs" />
      <Compile Include="Assets\Scripts\Laser_moove.cs" />
@@ -74,6 +77,7 @@
      <Compile Include="Assets\Scripts\SaveData2.cs" />
      <Compile Include="Assets\Scripts\SceneChanger.cs" />
      <Compile Include="Assets\Scripts\SceneSwitch.cs" />
+     <Compile Include="Assets\Scripts\screenshotHandler.cs" />
      <Compile Include="Assets\Scripts\Teleporter.cs" />
      <Compile Include="Assets\Scripts\TimeCounterDown.cs" />
      <Compile Include="Assets\Scripts\Track.cs" />
